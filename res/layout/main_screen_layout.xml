@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainscreenbackgroundblue" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Quote"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/mainscreenbackgroundblue"
+        android:src="@drawable/main_screen_background" />
+
+    <Button
+        android:id="@+id/OpenModernScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/OpenBalletScreen"
+        android:layout_alignRight="@+id/OpenBalletScreen"
+        android:layout_below="@+id/OpenBalletScreen"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:text="@string/modern" />
+
+    <Button
+        android:id="@+id/OpenTapScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/OpenModernScreen"
+        android:layout_alignRight="@+id/OpenModernScreen"
+        android:layout_below="@+id/OpenModernScreen"
+        android:layout_marginTop="48dp"
+        android:background="#FFFFFF"
+        android:text="@string/tap" />
+
+    <Button
+        android:id="@+id/OpenBalletScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"   
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF"
+        android:text="@string/ballet" />
+
+    <TextView
+        android:id="@+id/Quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/OpenTapScreen"
+        android:layout_alignRight="@+id/OpenTapScreen"
+        android:layout_below="@+id/title"
+        android:background="@color/mainscreenbackgroundblue"
+        android:gravity="center"
+        android:scrollHorizontally="true"
+        android:text="QUOTE"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OpenTapScreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/mainscreenbackgroundblue"
+        android:text="______________"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

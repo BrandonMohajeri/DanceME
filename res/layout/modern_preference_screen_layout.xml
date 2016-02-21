@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/mainscreenbackgroundblue">
+    <PreferenceCategory
+        android:title="@string/modern_direction" 
+        android:background="@color/mainscreenbackgroundblue">
+        <PreferenceScreen
+            android:title = "@string/modern_body_part"
+            android:summary = "@string/modern_body_part_summary"
+            android:persistent = "false" >
+            <CheckBoxPreference 
+                android:title="@string/body_head"
+                android:key="body_head"
+                android:defaultValue="true" />
+             <CheckBoxPreference 
+                android:title="@string/body_shoulder_right"
+                android:key="body_shoulder_right"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_shoulder_left"
+                android:key="body_shoulder_left"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_elbow_right"
+                android:key="ebody_elbow_right"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_elbow_left"
+                android:key="body_elbow_left"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_wrist_right"
+                android:key="body_wrist_right"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_wrist_left"
+                android:key="body_wrist_left"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_hand_right"
+                android:key="body_hand_right"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_hand_left"
+                android:key="body_hand_left"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_chest"
+                android:key="body_chest"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_ribs"
+                android:key="body_ribs"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_pelvis"  		
+                android:key="body_pelvis"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_knee_right"
+                android:key="body_knee_right"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_knee_left"
+                android:key="body_knee_left"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_ankle_right"
+                android:key="body_ankle_right"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_ankle_left"
+                android:key="body_ankle_left"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_foot_right"
+                android:key="body_foot_right"
+                android:defaultValue="true" />
+              <CheckBoxPreference 
+                android:title="@string/body_foot_left"
+                android:key="body_foot_left"
+                android:defaultValue="true" />
+        </PreferenceScreen>
+        
+        <PreferenceScreen
+            android:title="@string/modern_direction"
+            android:summary="@string/modern_direction_summary"
+            android:persistent="false" >
+            <CheckBoxPreference 
+                android:title="@string/direction_none"
+                android:key="direction_none"
+                android:defaultValue="false" />
+            <CheckBoxPreference 
+                android:title="@string/direction_up"
+                android:key="direction_up"
+                android:defaultValue="true" />
+            <CheckBoxPreference
+                android:title="@string/direction_down"
+                android:key="direction_down"
+                android:defaultValue="true" />
+            <CheckBoxPreference
+                android:title="@string/direction_forward"
+                android:key="direction_forward"
+                android:defaultValue="true" />
+            <CheckBoxPreference
+                android:title="@string/direction_back"
+                android:key="direction_back"
+                android:defaultValue="true" />
+            <CheckBoxPreference
+                android:title="@string/direction_left"
+                android:key="direction_left"
+                android:defaultValue="true" />
+            <CheckBoxPreference
+                android:title="@string/direction_right"
+                android:key="direction_right"
+                android:defaultValue="true" />
+        </PreferenceScreen>
+        
+        <PreferenceScreen 
+            android:title="@string/modern_plane"
+            android:summary="@string/modern_plane_summary"
+            android:persistent="false" >
+            <CheckBoxPreference 
+                android:defaultValue="false"
+                android:title="@string/plane_none"
+                android:key="plane_none" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/plane_horizontal"
+                android:key="plane_horizontal" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/plane_vertical"
+                android:key="plane_vertical" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/plane_transverse"
+                android:key="plane_transverse" />            
+        </PreferenceScreen>
+        
+        <PreferenceScreen
+            android:title="@string/modern_movement_quality"
+            android:summary="@string/modern_movement_quality_summary"
+            android:persistent="false" >
+            <CheckBoxPreference 
+                android:defaultValue="false"
+                android:title="@string/movement_quality_none"
+                android:key="movement_quality_none" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_quality_direct"
+                android:key="movement_quality_direct" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_quality_indirect"
+                android:key="movement_quality_indirect" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_quality_sustained"
+                android:key="movement_quality_sustained" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_quality_sudden"
+                android:key="movement_quality_sudden" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_quality_strong"
+                android:key="movement_quality_strong" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_quality_light"
+                android:key="movement_quality_light" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_quality_bound"
+                android:key="movement_quality_bound" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_quality_free_flow"
+                android:key="movement_quality_free_flow" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_quality_vibratory"
+                android:key="movement_quality_vibratory" />
+		</PreferenceScreen>
+		<PreferenceScreen
+            android:title="@string/modern_movement_pathway"
+            android:summary="@string/modern_movement_pathway_summary"
+            android:persistent="false" >
+            <CheckBoxPreference 
+                android:defaultValue="false"
+                android:title="@string/movement_pathway_none"
+                android:key="movement_pathway_none" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_pathway_spoke"
+                android:key="movement_pathway_spoke" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_pathway_arc"
+                android:key="movement_pathway_arc" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_pathway_carve"
+                android:key="movement_pathway_carve" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_pathway_spiral"
+                android:key="movement_pathway_spiral" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/movement_pathway_pendular"
+                android:key="movement_pathway_pendular" />
+        </PreferenceScreen>
+        
+        <PreferenceScreen
+            android:title="@string/modern_augmentation"
+            android:summary="@string/modern_augmentation_summary"
+            android:persistent="false" >
+            <CheckBoxPreference 
+                android:defaultValue="false"
+                android:title="@string/augmentation_none"
+                android:key="augmentation_none" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/augmentation_fragmentation"
+                android:key="augmentation_fragmentation" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/augmentation_repetition"
+                android:key="augmentation_repetition" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/augmentation_canon"
+                android:key="augmentation_canon" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/augmentation_accumulation"
+                android:key="augmentation_accumulation" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/augmentation_level_change"
+                android:key="augmentation_level_change" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/augmentation_plane_change"
+                android:key="augmentation_plane_change" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/augmentation_background_change"
+                android:key="augmentation_background_change" />
+            <CheckBoxPreference 
+                android:defaultValue="true"
+                android:title="@string/augmentation_embellishment"
+                android:key="augmentation_embellishment" />
+        </PreferenceScreen>
+    </PreferenceCategory> 
+</PreferenceScreen>

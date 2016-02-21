@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">DanceMe</string>
+	<string name="george_carlin_quote">\"Those who dance are considered insane \nby those who cannot hear the music\" \nGeorge Carlin</string>
+	<string name="tap">Tap</string>
+	<string name="ballet">Ballet</string>
+	<string name="modern">Modern</string>
+	<string name="about">About</string>
+	
+	<!-- Modern Preferences Strings -->
+	<string name="modern_pref_name">Modern Preferences</string>
+	<string name="modern_body_part">Body Part</string>
+	<string name="modern_body_part_summary">Choose the body part</string>
+	<string name="modern_direction">Direction</string>
+	<string name="modern_direction_summary">Choose the direction of your moves</string>
+	<string name="modern_plane">Plane</string>
+	<string name="modern_plane_summary">Choose the plane of your moves</string>
+	<string name="modern_movement_quality">Movement Qualities</string>
+	<string name="modern_movement_quality_summary">Choose the quality of your movement</string>
+	<string name="modern_movement_pathway">Movement Pathways</string>
+	<string name="modern_movement_pathway_summary">Choose the pathway of your movement</string>
+	<string name="modern_augmentation">Augmentation</string>
+	<string name="modern_augmentation_summary">Choose the augmentation of your moves</string>
+	
+	
+	<!--  Modern Body Parts Strings -->
+	<string name="body_head">Head</string>
+	<string name="body_shoulder_right">Right Shoulder</string>
+	<string name="body_shoulder_left">Left Shoulder</string>
+	<string name="body_elbow_left">Left Elbow</string>
+	<string name="body_elbow_right">Right Elbow</string>
+	<string name="body_wrist_right">Right Wrist</string>
+	<string name="body_wrist_left">Left Wrist</string>
+	<string name="body_hand_right">Right Hand</string>
+	<string name="body_hand_left">Left Hand</string>
+	<string name="body_chest">Chest</string>
+	<string name="body_ribs">Ribs</string>
+	<string name="body_pelvis">Pelvis</string>
+	<string name="body_knee_right">Right Knee</string>
+	<string name="body_knee_left">Left Knee</string>
+	<string name="body_ankle_left">Left Ankle</string>
+	<string name="body_ankle_right">Right Ankle</string>
+	<string name="body_foot_right">Right Foot</string>
+	<string name="body_foot_left">Left Foot</string>
+	
+	
+	<!-- Modern Direction Strings -->
+	<string name="direction_none">None</string>
+	<string name="direction_up">Up</string>
+	<string name="direction_down">Down</string>
+	<string name="direction_forward">Forward</string>
+	<string name="direction_back">Back</string>
+	<string name="direction_left">Left</string>
+	<string name="direction_right">Right</string>
+	
+	<!-- Modern Plane Strings -->
+	<string name="plane_none">None</string>
+	<string name="plane_horizontal">Horizontal</string>
+	<string name="plane_vertical">Vertical</string>
+	<string name="plane_transverse">Transverse</string>
+	
+	<!-- Modern Movement Qualities Strings -->
+	<string name="movement_quality_none">None</string>
+	<string name="movement_quality_direct">Direct</string>
+	<string name="movement_quality_indirect">Indirect</string>
+	<string name="movement_quality_sustained">Sustained</string>
+	<string name="movement_quality_sudden">Sudden</string>
+	<string name="movement_quality_strong">Strong</string>
+	<string name="movement_quality_light">Light</string>
+	<string name="movement_quality_bound">Bound</string>
+	<string name="movement_quality_free_flow">Free Flow</string>
+	<string name="movement_quality_vibratory">Vibratory</string>
+	
+	<!-- Modern Movement Pathways Strings -->
+	<string name="movement_pathway_none">None</string>
+	<string name="movement_pathway_spoke">Spoke</string>
+	<string name="movement_pathway_arc">Arc</string>
+	<string name="movement_pathway_carve">Carve</string>
+	<string name="movement_pathway_spiral">Spiral</string>
+	<string name="movement_pathway_pendular">Pendular</string>
+	
+	<!-- Modern Augmentation Strings -->
+	<string name="augmentation_none">None</string>
+	<string name="augmentation_fragmentation">Fragmentation</string>
+	<string name="augmentation_repetition">Repetition</string>
+	<string name="augmentation_canon">Canon</string>
+	<string name="augmentation_accumulation">Accumulation</string>
+	<string name="augmentation_level_change">Level Change</string>
+	<string name="augmentation_plane_change">Plane Change</string>
+	<string name="augmentation_background_change">Background Change</string>
+	<string name="augmentation_embellishment">Embellishment</string>
+	
+	<!-- Splash Screen Strings -->
+	<string name="splash_screen_string">The App Built For Dancers...</string>
+	
+	<!-- View Saved Tap Dance Strings -->
+	<string name="delete_button">Delete</string>
+	<string name="dance_name">Large Text</string>
+	<string name="move_numbers">Small Text</string>
+	<string name="textview_string">____________________</string>
+</resources>

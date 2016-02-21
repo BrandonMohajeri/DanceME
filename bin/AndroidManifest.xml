@@ -1,0 +1,48 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.danceme"
+    android:versionCode="1" 
+    android:versionName="1.0" >        
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dance_logo"
+        android:label="@string/app_name" 
+        android:theme="@style/CustomActionBarTheme">
+        <activity  
+            android:name="activity_classes.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/SplashScreenTheme"> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" /> 
+            </intent-filter>
+        </activity>  
+     	<activity
+     	    android:name="activity_classes.MainScreen"
+     	    android:label="@string/app_name">
+     	</activity>
+     	
+     	 <activity android:name="activity_classes.BalletScreen"></activity>
+ 	     <activity android:name="activity_classes.ModernScreen"></activity>
+ 	     <activity android:name="activity_classes.ViewModernMoves"></activity>
+ 	     <activity android:name="activity_classes.ViewSavedModernMove"></activity>
+ 	     <activity android:name="activity_classes.TapScreen"></activity>
+ 	     <activity android:name="activity_classes.ViewTapDance"></activity>
+ 	     <activity android:name="activity_classes.ViewSavedTapDance"></activity>
+ 	     
+         <activity 
+            android:name="preferences.ModernPreferences"
+            android:parentActivityName="activity_classes.ModernScreen">
+           	<meta-data 
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="activity_classes.ModernScreen"/>
+        </activity>
+    </application>
+
+</manifest>
